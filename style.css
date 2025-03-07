@@ -84,3 +84,12 @@ button:hover {
 button:active {
     transform: scale(0.99);
 }
+
+@media screen and (max-width:525px){
+    h2 {
+        font-size: 1.5rem;
+    }
+    .quiz-header {
+        padding: 2rem;
+    }
+}
